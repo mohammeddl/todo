@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Fruit from './fruits/Fruits';
+import Events from './Eventt/Event';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,8 +15,8 @@ const fruisArayy = [
 ]
 root.render(
   <React.StrictMode>
+    <Events button='submit' />
 <Fruit fruits = {fruisArayy}/>
-    
   </React.StrictMode>
 );
 
